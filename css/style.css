@@ -1,0 +1,60 @@
+#id1{
+    width: 182px;
+height: 50px;
+top: 87px;
+left: 1178px;
+gap: 0px;
+border-radius: 5.95px 0px 0px 0px;
+opacity: 0px;
+background: #75BF7A;
+}
+.mail{
+    background: #75BF7A;
+}
+#id2{
+    right: 540px;
+    top: 1190px;
+    left: 448px; 
+}
+@media screen and (max-width:1900px) and (min-width: 768px) {
+    .widthmedia{
+        width: 50%;
+    }   
+}
+@media screen and (max-width:502px) {
+    .mobile{
+        width: 70%
+    }    
+}
+@media screen and (max-width:600px)and (min-width:502px) {
+    .mobile{
+        width: 50%
+    }
+    .circle{
+        width: 60%;
+    }    
+}
+@media screen and (max-width:740px)and (min-width:600px) {
+    .mobile{
+        width: 40%
+    }
+    .circle{
+        width: 50%;
+    }  
+}
+@media screen and (max-width:858px)and (min-width:740px) {
+    .mobile{
+        width: 40%
+    }
+    .circle{
+        width: 50%;
+    }  
+}
+@media screen and (max-width:998px)and (min-width:858px) {
+    .mobile{
+        width: 36%
+    }
+    .circle{
+        width: 50%;
+    }   
+}
